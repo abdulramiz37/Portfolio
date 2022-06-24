@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster&family=Mochiy+Pop+P+One&family=Oswald:wght@300&family=Petemoss&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Blog site</title>
+<style>
+ 
+a{
+    text-decoration: none;
+}
+body {
+  background-color: rgb(234, 243, 217);
+}
+.card-body ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin : 0 1em; 
+}
+.card{
+           
+            
+            box-shadow: 10px 5px;
+            transition: all 5s ease-in;
+            cursor: nesw-resize;
+           
+        }
+     
+.header {
+  background:green ;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-head{
+    display: block;
+    flex-basis: 50%;
+}
+.card-body{
+    margin: auto;
+}
+.card-body ul{
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+
+}
+.card {
+  background-color: white;
+  padding: 1em;
+}
+h2 {
+  color: white;
+  margin-left: 7%;
+  font-family: "Lobster", cursive;
+}
+h4 {
+  padding-left: 40px;
+}
+.header {
+  position: sticky;
+  top: 0;
+}
+.card {
+  margin: 50px 0px;
+}
+.container {
+  display: flex;
+}
+.left-content {
+  flex-basis: 70%;
+  margin: 0px 10px;
+}
+.right-content{
+    flex-basis: 30%;
+}
+img {
+  width: 100%;
+}
+.right-sticky{
+    position:sticky;
+    top:15em;
+    padding:1em;
+}
+
+.footerSection{
+    background: #000000;
+}
+.footer-row{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+}
+.footer-div-1, .footer-div-2, .footer-div-3{
+    flex-basis: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 5em;
+}
+.footer-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.footer-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.footer-content  h3{
+     color:#ffffff;
+}
+.footer-container p{
+     color:#ffffff;
+}
+#animate{
+
+position: fixed;
+
+bottom: 0px;
+left: 0px;
+height: 200px;
+width: 20vw;
+background-color: rgb(166, 255, 0);
+
+
+
+}
+
+@media screen and (max-width: 850px){
+    .header{
+        display: none;
+    }
+    
+    body{
+        background-color: rgb(199, 23, 23);
+    }
+   
+    
+    
+    
+    
+}
+
+</style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="card-head">
+            <h2>Abdul's Portfolio</h2>
+        </div>
+        <div class="card-body">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <div class="left-content">
+            <div class="card">
+                <h4>Abdul Ramiz</h4>
+                <hr>
+                <img src="WhatsApp Image 2022-04-25 at 12.02.49 AM.jpeg">
+                <p></p>
+            </div>
+            <div class="card">
+                <h4>Programming</h4>
+                <hr>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfNikreL2sfwO_bXUSwV-CDu8X129UqWRnEw&usqp=CAU">
+                <p>
+                    <h5 style="text-align: center;">Geekster (Internship)</h5>
+                    <h5 style="text-align: center;">Code with Harry</h5>
+                    <h5 style="text-align: center;">Dsa for Anuj Bhaiya</h5>
+                    <h5 style="text-align: center;">and Apna college</h5>
+                </p>
+            </div>
+             <div class="card">
+                <h4>Projects Links</h4>
+                <hr>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8zmKU5Cz6I0OEfyzF7IGBRYsEAxYWjPtEw&usqp=CAU">
+                <p>
+                    <h5 style="text-align: center;">Stopwatch: https://abdulramiz37.github.io/stopwatch/</h5>
+                    <h5 style="text-align: center;">kbcGame: https://abdulramiz37.github.io/kbcgame/</h5>
+                    <h5 style="text-align: center;">Infinitescolll: https://abdulramiz37.github.io/insinte-scroll/</h5>
+                    <h5 style="text-align: center;">map: https://abdulramiz37.github.io/map/</h5>
+                </p>
+            </div>
+             <div class="card">
+                <h4>Food</h4>
+                <hr>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpZFYBmbghfvmWNuKTbAHHfGHFCVuo7kNTAA&usqp=CAU">
+                <p>
+                    <h5 style="text-align: center;">Anything</h5>
+                  
+                </p>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="card">
+                <h4>About me</h4>
+                
+                <h3>Hey there!!!</h3>
+                <h1>I am Abdul </h1>
+                <h5>Front end Developer</h5>
+                <p class="intro"> I am 24 years old. I belong to Akola MAHARASHTRA. 
+                     And few of my interest include Anime,watching movies,
+                    gaming and outdoor games like cricket, football etc. </p>
+                <p><b>I belong to a middle class family. there are 4 members in my family Including my father, Mother,
+                         Elder Brother and Me.
+                        
+                        i have Interset in web development field. My skills include HTML, CSS , JavaScript ,Java , C, C++, React.js,Bootstrap and MUI
+                        Programming.
+                    </b></p>
+            </div>
+            <div class="card right-sticky">
+                <h5>Sections</h5>
+                <ul>
+                    <li>Programming</li>
+                    <li>Travel</li>
+                    <li>Food</li>
+                    <li>Health & Fitness</li>
+                    <li>Music & Lifestyle</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footerSection " id="footerid">
+        <div class=" footer-container">
+            <div class="footer-row">
+
+                <div class=" footer-div-1">
+                    <div class="footer-content">
+                       
+                        <p>A web page where you can write your frontend code like HTML,CSS and JAVASCRIPT and get the realtime output of your code </p>
+                    </div>
+                </div>
+
+                <div class=" footer-div-2">
+                    <div  class="footer-content">
+                        <h3 class="mt-5">NAVIGATION LINKS</h3>
+                        <li><a href="#topheader">HOME</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="#">HELP</a></li>
+                    </div>
+                </div>
+
+                <div class=" footer-div-3">
+                    <div  class="footer-content">
+                        <h3 class="mt-5">CONTRIBUTOR</h3>
+                        <p>AbdulS</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>All copyrights @ reserved by Abdul Ramiz.</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    
+
+
+
+</body>
+
+</html>
